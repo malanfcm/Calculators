@@ -1,4 +1,4 @@
-# Calc-U-Later: AI-Powered Calculator Agent
+# Calc-U-Later: Agentic Azure Foundry AI Calculator
 
 This project demonstrates a **calculator agent** built with **Azure AI**, **Semantic Kernel**, and **Azure Identity**. The agent can perform arithmetic operations, powers, roots, percentages, and complex expressions with parentheses.
 
@@ -57,7 +57,4 @@ This guide explains how to run both the **Calc-U-Later AI Calculator** and the *
 2) cd <your-repo>
 3) dotnet restore
 4) dotnet build
-5) cd CalcULater
 6) dotnet run
-
-

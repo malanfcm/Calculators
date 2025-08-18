@@ -52,6 +52,7 @@ This guide explains how to run both the **Calc-U-Later AI Calculator** and the *
 
 ## 1. Clone the Repository
 
+```bash
 1) git clone https://github.com/<your-username>/<your-repo>.git
 2) cd <your-repo>
 3) dotnet restore

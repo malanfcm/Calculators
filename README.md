@@ -13,12 +13,23 @@ This project demonstrates a **calculator agent** built with **Azure AI**, **Sema
 - **Microsoft.SemanticKernel.Agents.AzureAI**
 - **Microsoft.SemanticKernel.ChatCompletion**
 
+## Features
+- **Add, subtract, multiply, divide**
+- **Powers and roots**
+- **Percentages**
+- **Complex expressions with parentheses**
+- **Interactive chat interface**
+- **Exit command with exit**
+
 ---
 
-## Setup
+# OOP Calculator
 
-1. Create an Azure AI resource.
-2. Obtain your **agent ID** and **endpoint URL**.
-3. Ensure you have **Azure Identity credentials** set up for authentication (e.g., via `DefaultAzureCredential`).
+A simple object-oriented calculator in C# that supports addition, subtraction, multiplication, and division.
 
----
+## Features
+
+- Perform basic arithmetic operations: add, subtract, multiply, divide
+- Uses interfaces and classes to implement operations
+- Handles division by zero gracefully
+- Looping input for continuous calculations

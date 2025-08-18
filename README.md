@@ -29,7 +29,34 @@ A simple object-oriented calculator in C# that supports addition, subtraction, m
 
 ## Features
 
-- Perform basic arithmetic operations: add, subtract, multiply, divide
-- Uses interfaces and classes to implement operations
-- Handles division by zero gracefully
-- Looping input for continuous calculations
+- **Perform basic arithmetic operations: add, subtract, multiply, divide**
+- **Uses interfaces and classes to implement operations**
+- **Handles division by zero gracefully**
+- **Looping input for continuous calculations**
+
+
+
+
+# How to Run the App
+
+This guide explains how to run both the **Calc-U-Later AI Calculator** and the **OOP Calculator** console applications.
+
+---
+
+## Prerequisites
+
+- **.NET 9 SDK** installed: [Download here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+- For **Calc-U-Later**, ensure your **Azure credentials** are configured for `DefaultAzureCredential`.
+
+---
+
+## 1. Clone the Repository
+
+1) git clone https://github.com/<your-username>/<your-repo>.git
+2) cd <your-repo>
+3) dotnet restore
+4) dotnet build
+5) cd CalcULater
+6) dotnet run
+
+

@@ -4,6 +4,7 @@ using System;
 var calculator = new Calculator();
 
 Console.WriteLine("=== OOP Calculator ===");
+Console.WriteLine("Type 'exit' at any prompt to quit.");
 
 try
 {
@@ -11,12 +12,21 @@ try
     {
         Console.Write("Enter Operation (add, sub, mul, div): ");
         string operation = Console.ReadLine();
+        if (operation.Equals("exit", StringComparison.OrdinalIgnoreCase))
+            break;
 
         Console.Write("Enter 1st number: ");
-        double a = Convert.ToDouble(Console.ReadLine());
+        string inputA = Console.ReadLine();
+        if (inputA.Equals("exit", StringComparison.OrdinalIgnoreCase))
+            break;
 
         Console.Write("Enter 2nd number: ");
-        double b = Convert.ToDouble(Console.ReadLine());
+        string inputB = Console.ReadLine();
+        if (inputB.Equals("exit", StringComparison.OrdinalIgnoreCase))
+            break;
+
+        double a = Convert.ToDouble(inputA);
+        double b = Convert.ToDouble(inputB);
 
         double result = calculator.Calculate(operation, a, b);
         Console.WriteLine($"Result: {result}");
@@ -24,5 +34,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"Result:{ex.Message}");
+    Console.WriteLine($"Error: {ex.Message}");
 }
+
+Console.WriteLine("Goodbye!");

@@ -47,7 +47,7 @@ This guide explains how to run both the **Calc-U-Later AI Calculator** and the *
 ## Prerequisites
 
 - **.NET 9 SDK** installed: [Download here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
-- For **Calc-U-Later**, ensure your **Azure credentials** are configured for `DefaultAzureCredential`.
+- For **Calc-U-Later**, The Azure Credentials will be available for the next 72 hours only. 
 
 ---
 

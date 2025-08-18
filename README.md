@@ -1,6 +1,7 @@
 # Calc-U-Later: Agentic Azure Foundry AI Calculator
 
 This project demonstrates a **calculator agent** built with **Azure AI**, **Semantic Kernel**, and **Azure Identity**. The agent can perform arithmetic operations, powers, roots, percentages, and complex expressions with parentheses.
+Additionally, the calculator uses **RAG (Retrieval-Augmented Generation) operations** to gain custom knowledge from the included file **BasicMathHandbook.pdf**. Users are encouraged to ask questions about the book to see how the agent applies its content in calculations and explanations.
 
 ---
 

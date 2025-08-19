@@ -8,6 +8,10 @@ using Microsoft.SemanticKernel.ChatCompletion;
 
 #pragma warning disable SKEXP0110
 
+Console.WriteLine("****************************************");
+Console.WriteLine("       Calc-U-Later Loading!        ");
+Console.WriteLine("****************************************");
+
 // Agent setup
 string agentId = "asst_uZThW1LeE27HEUBxFR3DU4Wi";
 string endpoint = "https://fcmalanaifoundry-resource.services.ai.azure.com/api/projects/fcmalanaifoundry";

@@ -58,7 +58,6 @@ This guide explains how to run both the **Calc-U-Later AI Calculator** and the *
 
 ```bash
 1) git clone https://github.com/malanfcm/Calculators.git
-2) cd <your-repo>
-3) dotnet restore
-4) dotnet build
-6) dotnet run
+2) dotnet build
+3) cd AgentCalculator / OOPCalculator
+4) dotnet run

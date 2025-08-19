@@ -38,7 +38,7 @@ A simple object-oriented calculator in C# that supports addition, subtraction, m
 - **Handles division by zero gracefully**
 - **Looping input for continuous calculations**
 
-
+<img width="355" height="132" alt="image" src="https://github.com/user-attachments/assets/9491cbba-fd6d-4ff5-b5e1-cadeaf5f9eca" />
 
 
 # How to Run the App

@@ -57,7 +57,6 @@ async Task AgentChat()
 
             await foreach (AgentResponseItem<ChatMessageContent> item in agent.InvokeAsync(message, agentThread))
             {
-                Console.WriteLine(item.Message.Content);
                 Console.WriteLine($"Calc-U-Later: {item.Message.Content}");
                 Console.ResetColor();
             }

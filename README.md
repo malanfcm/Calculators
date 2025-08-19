@@ -24,6 +24,9 @@ Additionally, the calculator uses **RAG (Retrieval-Augmented Generation) operati
 
 ---
 
+<img width="830" height="488" alt="image" src="https://github.com/user-attachments/assets/4b3fb7b8-f81f-435f-b017-a9dd042fc9d3" />
+
+
 # OOP Calculator
 
 A simple object-oriented calculator in C# that supports addition, subtraction, multiplication, and division.
@@ -54,7 +57,7 @@ This guide explains how to run both the **Calc-U-Later AI Calculator** and the *
 ## 1. Clone the Repository
 
 ```bash
-1) git clone https://github.com/<your-username>/<your-repo>.git
+1) git clone https://github.com/malanfcm/Calculators.git
 2) cd <your-repo>
 3) dotnet restore
 4) dotnet build
